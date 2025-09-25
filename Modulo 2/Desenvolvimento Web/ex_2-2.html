@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title é uma tag para o nome da página -->
+    <title>Exercício Flask</title>
+</head>
+<body>
+    <!-- h1 é uma tag de titulo, p é uma tag de paragrafo e a ref é uma tag de limk -->
+    <h1>Fabrica de programadores</h1>
+    <p>Prefeitura de Santana de Parnaíba</p>
+    <a href="{{url_for('sobre')}}">Sobre</a>
+    <a href="{{url_for('saudacao', nome='José')}}">Saudação</a>
+    <a href="{{url_for('dobro',numero=25)}}">Dobro</a>
+</body>
+</html>
